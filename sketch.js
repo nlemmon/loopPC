@@ -24,7 +24,7 @@ function setup() {
   bootupLogo = new MakeText(bootupLogoStr, width/2, 100, 1);
   let bootupInfoStr = "Booting system...\n" + "K-9000 Core Initialized.\n" + "Version K1.94.0\n" + "A Kane Industries System.\n" + "Type 'help' to list options.\n";
   //bootupInfoStr = "PC";
-  bootupInfo = new MakeText(bootupInfoStr, width/2, 100 + 48*10, 1);
+  bootupInfo = new MakeText(bootupInfoStr, width/2, 100 + 10, 1);
   inputY = height/2 + 200;
   inputX = 25;
   rectH = 0;
