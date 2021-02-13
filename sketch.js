@@ -19,16 +19,16 @@ function setup() {
   green = color(65, 255, 0);
   grey = color(6, 29, 12);
   //font = createFont("VT323-Regular.ttf", 48);
-  textSize(1);
+  textSize(24);
   //bootupLogoStr = "Ready!";
-  bootupLogo = new MakeText(bootupLogoStr, width/2, 100, 1);
+  bootupLogo = new MakeText(bootupLogoStr, width/2, 100, 124);
   let bootupInfoStr = "Booting system...\n" + "K-9000 Core Initialized.\n" + "Version K1.94.0\n" + "A Kane Industries System.\n" + "Type 'help' to list options.\n";
   //bootupInfoStr = "PC";
-  bootupInfo = new MakeText(bootupInfoStr, width/2, 100 + 10, 1);
+  bootupInfo = new MakeText(bootupInfoStr, width/2, 100 + 10, 24);
   inputY = height/2 + 200;
   inputX = 25;
   rectH = 0;
-  textBox = new MakeText(preinput, inputX, inputY, 1);
+  textBox = new MakeText(preinput, inputX, inputY, 24);
   fileSetup();
 }
 
