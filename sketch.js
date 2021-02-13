@@ -15,7 +15,7 @@ let helpList = new Array("Opens the help documentation.", "Lists available files
 let files = [];
 
 function setup() {
-  createCanvas(2000, 1500);
+  createCanvas(windowWidth, windowHeight);
   green = color(65, 255, 0);
   grey = color(6, 29, 12);
   //font = createFont("VT323-Regular.ttf", 48);
