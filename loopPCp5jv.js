@@ -17,6 +17,7 @@ let files = [];
 function setup() {
   createCanvas(200, 200);
   green = color(65, 255, 0);
+  green = color(255, 65, 0);
   grey = color(6, 29, 12);
   //font = createFont("VT323-Regular.ttf", 48);
   textSize(48);
