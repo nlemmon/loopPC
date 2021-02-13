@@ -18,7 +18,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   green = color(65, 255, 0);
   grey = color(6, 29, 12);
-  //font = createFont("VT323-Regular.ttf", 48);
+  font = textFont("VT323");
   textSize(24);
   //bootupLogoStr = "Ready!";
   bootupLogo = new MakeText(bootupLogoStr, width/2, 100, 124);
