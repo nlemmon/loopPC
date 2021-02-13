@@ -44,6 +44,7 @@ function draw() {
   if (bootupInfo.isDone) {
     textBox.typewriter(false);
   }
+  scanline();
 }
 
 class MakeText {
