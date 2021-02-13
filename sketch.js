@@ -79,7 +79,7 @@ class MakeText {
   
 
   move() {
-    this.y -= this.size;
+    this.y -= this.size + 7;
   }
 
 
